@@ -1,0 +1,1 @@
+<a href="{{ url($url, $id) }}/edit" class="btn btn-warning"><span class="fa fa-edit"></span> Edit</a>

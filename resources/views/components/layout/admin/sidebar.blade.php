@@ -1,0 +1,130 @@
+<aside class="left-sidebar">
+    <!-- Sidebar scroll-->
+    <div class="scroll-sidebar">
+        <!-- User profile -->
+        <div class="user-profile">
+            <!-- User profile image -->
+            <div class="profile-img"> <img src="{{ url('public/admin') }}/assets/images/users/profile.png"
+                    alt="user" />
+                <!-- this is blinking heartbit-->
+                <div class="notify setpos"> <span class="heartbit"></span> <span class="point"></span>
+                </div>
+            </div>
+            <!-- User profile text-->
+            <div class="profile-text">
+
+                <h5>Admin</h5>
+
+                <a href="#" class="dropdown-toggle u-dropdown" data-toggle="dropdown" role="button"
+                    aria-haspopup="true" aria-expanded="true"><i class="mdi mdi-settings"></i></a>
+                <a href="app-email.html" class="" data-toggle="tooltip" title="Email"><i
+                        class="mdi mdi-gmail"></i></a>
+                <a href="pages-login.html" class="" data-toggle="tooltip" title="Logout"><i
+                        class="mdi mdi-power"></i></a>
+                <div class="dropdown-menu animated flipInY">
+                    <!-- text-->
+                    <a href="#" class="dropdown-item"><i class="ti-user"></i> My Profile</a>
+                    <!-- text-->
+                    <a href="#" class="dropdown-item"><i class="ti-wallet"></i> My Balance</a>
+                    <!-- text-->
+                    <a href="#" class="dropdown-item"><i class="ti-email"></i> Inbox</a>
+                    <!-- text-->
+                    <div class="dropdown-divider"></div>
+                    <!-- text-->
+                    <a href="#" class="dropdown-item"><i class="ti-settings"></i> Account Setting</a>
+                    <!-- text-->
+                    <div class="dropdown-divider"></div>
+                    <!-- text-->
+                    <a href="login.html" class="dropdown-item"><i class="fa fa-power-off"></i> Logout</a>
+                    <!-- text-->
+                </div>
+            </div>
+        </div>
+        <!-- End User profile text-->
+        <!-- Sidebar navigation-->
+        <nav class="sidebar-nav">
+            <ul id="sidebarnav">
+                <li class="nav-devider"></li>
+                <li class="nav-small-cap">MASTER DATA</li>
+                <li>
+                    <a class="waves-effect waves-dark" href="{{ url('admin') }}" aria-expanded="false">
+                        <i class="mdi mdi-home"></i>
+                        <span class="hide-menu">Dashboard </span>
+                    </a>
+
+                </li>
+
+                <li>
+                    <a class="waves-effect waves-dark" href="{{ url('admin/data-dosen') }}" aria-expanded="false">
+                        <i class="fa fa-user"></i>
+                        <span class="hide-menu">Data Dosen </span>
+                    </a>
+
+                </li>
+
+                <li>
+                    <a class="waves-effect waves-dark" href="{{ url('admin/data-mahasiswa') }}" aria-expanded="false">
+                        <i class="fa fa-users"></i>
+                        <span class="hide-menu">Data Mahasiswa </span>
+                    </a>
+
+                </li>
+                <li>
+                    <a class="waves-effect waves-dark" href="{{ url('admin/data-konsentrasi') }}"
+                        aria-expanded="false">
+                        <i class="fa fa-list"></i>
+                        <span class="hide-menu">Data Konsentrasi </span>
+                    </a>
+
+                </li>
+                <li>
+                    <a class="waves-effect waves-dark" href="{{ url('admin/data-mata-kuliah') }}" aria-expanded="false">
+                        <i class="fa fa-book"></i>
+                        <span class="hide-menu">Data Mata Kuliah </span>
+                    </a>
+
+                </li>
+
+
+
+                <li class="nav-small-cap">Perhitungan &amp; Rekomendasi</li>
+                <li>
+                    <a class="waves-effect waves-dark" href="{{ url('admin/data-histori-nilai') }}"
+                        aria-expanded="false">
+                        <i class="fa fa-list"></i>
+                        <span class="hide-menu">Data Histori Nilai</span>
+                    </a>
+
+                </li>
+
+                <li>
+                    <a class="waves-effect waves-dark" href="{{ url('admin/data-proses-entropy') }}"
+                        aria-expanded="false">
+                        <i class="mdi mdi-calculator"></i>
+                        <span class="hide-menu">Data Proses Entropy</span>
+                    </a>
+
+                </li>
+
+                <li>
+                    <a class="waves-effect waves-dark" href="{{ url('admin/data-naive-bayes') }}" aria-expanded="false">
+                        <i class="mdi mdi-calculator"></i>
+                        <span class="hide-menu">Data Naive Bayes</span>
+                    </a>
+
+                </li>
+
+                <li>
+                    <a class="waves-effect waves-dark" href="{{ url('admin/data-uji-coba-prediksi') }}"
+                        aria-expanded="false">
+                        <i class="mdi mdi-history"></i>
+                        <span class="hide-menu">Data Uji Coba Prediksi</span>
+                    </a>
+
+                </li>
+            </ul>
+        </nav>
+        <!-- End Sidebar navigation -->
+    </div>
+    <!-- End Sidebar scroll-->
+</aside>

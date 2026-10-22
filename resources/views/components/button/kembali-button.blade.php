@@ -1,0 +1,1 @@
+<a href="{{ url($url, $id) }}" class="btn btn-primary"><span class="fa fa-arrow-left"></span> Kembali</a>
